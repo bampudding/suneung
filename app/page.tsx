@@ -58,6 +58,12 @@ export default function Page() {
                 국문
               </label>
             </div>
+            <div>
+              <label>
+                <input type="radio" name="lang" value={1} disabled/>
+                영문 (점검중)
+              </label>
+            </div>
           </>
         }>
           <div>

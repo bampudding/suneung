@@ -2,6 +2,7 @@ import Box from "@/components/box/box";
 import Button from "@/components/button/button";
 import Layout from "@/components/layout/layout";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -12,6 +13,9 @@ export default function Page() {
         fontWeight: "bold"
       }}>
         대학수학능력시험 국문 성적증명서
+      </div>
+      <div style={{fontSize: "14px", opacity: .6}}>
+        6월 모의고사, 9월 모의고사의 경우 고등학교에서 응시한 최근 3개년도(2023학년도부터) 시험만 조회할 수 있습니다. <Link href="https://www.suneung.re.kr/sub/info.do?m=0501&s=suneung">내용 참조</Link>
       </div>
       <div style={{
         borderTop: "2px solid #046aad",
@@ -41,18 +45,6 @@ export default function Page() {
               <td>2025</td>
               <td>대학수학능력시험</td>
               <td><Button title="발급" href="/file/202511.pdf"/></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>2025</td>
-              <td>9월 모의평가</td>
-              <td><Button title="발급" href="/file/202509.pdf"/></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>2025</td>
-              <td>6월 모의평가</td>
-              <td><Button title="발급" href="/file/202506.pdf"/></td>
             </tr>
 
             <tr>
