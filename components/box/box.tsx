@@ -11,12 +11,12 @@ export default function Box({
 }: Props) {
     return (
         <div style={{
-            background: grey ? "rgba(0, 0, 0, .10)" : "white",
+            background: grey ? "rgba(0, 0, 0, .054)" : "white",
             display: "flex",
             flexDirection: "column",
             gap: "16px",
             padding: "12px",
-            border: "1px solid rgba(0, 0, 0, .45)"
+            border: "1px solid rgba(0, 0, 0, .2)"
         }}>
             {top &&
                 <div style={{display: "flex", borderBottom: "1px solid rgba(0, 0, 0, .45)", paddingBottom: "12px"}}>

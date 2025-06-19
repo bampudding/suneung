@@ -11,7 +11,7 @@ export default function Page() {
         marginTop: "24px",
         fontWeight: "bold"
       }}>
-        국문 성적증명서
+        대학수학능력시험 국문 성적증명서
       </div>
       <div style={{
         borderTop: "2px solid #046aad",
